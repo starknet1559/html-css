@@ -1,0 +1,17 @@
+.box1{
+  width: 300px;
+  height: 300px;
+  /*コマンド＋/でコメントのコマンド省略*/
+  background-color: #C299FF;
+  margin: 50px ;
+  padding-bottom: 20px
+}
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: #FF99FF;
+  /*box2に枠線を追加する。*/
+  /*一辺にできない*/
+  border: solid black;
+  border-top-width: 5px;
+}
