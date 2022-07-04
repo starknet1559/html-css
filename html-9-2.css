@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #FF9A4B;
+  height: 50px;
+}
+main{
+  margin: 50px auto;
+  width:960;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width:300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  padding:10px;
+  position: relative;
+}
+/*添削箇所１*/
+.box:last-child {
+  margin-right: 0;
+}
+
+.image-1{
+  height:150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.image-2{
+  height:150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.image-3{
+  height:150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.step{
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: #FF9A4B;
+  color:#fff;
+}
+
+.title{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+footer{
+  height:50px;
+  background-color: #AAAAAA
+}
